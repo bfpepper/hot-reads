@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-  $("body").on("click", ".mark-as-read", markAsRead)
+  $("body").on("click", ".mark-read", markAsRead)
 })
 
 function markAsRead(e) {
@@ -17,7 +17,7 @@ function markAsRead(e) {
 }
 
 function updateLinkStatus(link) {
-  $(`.link[data-link-id=${link.id}]`).find(".read-status").text(link.read);
+  $('.link[data-link-id=' + link.id + ']').find(".read-status").text(link.read);
 }
 
 function displayFailure(failureData){

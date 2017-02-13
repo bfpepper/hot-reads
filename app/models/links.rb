@@ -9,6 +9,7 @@ class Links
     links = LinksService.new.get_links
     links.map do |link|
       Link.new(link)
+    end
   end
 
 end
