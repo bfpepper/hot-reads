@@ -1,4 +1,4 @@
-class Links
+class Link
 
   def initialize(link)
     @url = link[:url]
