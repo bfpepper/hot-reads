@@ -24,6 +24,7 @@ group :development do
 end
 
 group :development, :test do
+  gem 'listen'
   gem 'byebug'
   gem 'rspec-rails'
   gem 'capybara'
