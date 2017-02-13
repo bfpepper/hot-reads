@@ -21,7 +21,6 @@ gem "validate_url"
 # gem 'capistrano-rails', group: :development
 group :development do
   gem 'web-console', '~> 2.0'
-  gem 'rails_12factor'
 end
 
 group :development, :test do
