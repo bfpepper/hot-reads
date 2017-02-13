@@ -1,7 +1,7 @@
 class SiteController < ApplicationController
 
   def index
-    # @links = Link.all 
+    @links = Link.all 
   end
 
 end
