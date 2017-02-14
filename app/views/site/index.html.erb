@@ -1,4 +1,5 @@
-<%= @links.each do |link| %>
-<%= link.title %></br>
-<%= link.url %> <button class='mark-read' type="button">Mark as read</button>
+<% @links.each do |link| %>
+  <%= link.title %></br>
+  <%= link.url %> <button class='mark-read' type="button" data-link-id=<%= link.id %> >Mark as read</button>
+  <%= link.read %>
 <% end %>

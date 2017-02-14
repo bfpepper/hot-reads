@@ -1,8 +1,11 @@
 class Link
+  attr_reader :title, :url, :id, :read
 
   def initialize(link)
     @url = link[:url]
     @title = link[:title]
+    @id = link[:id]
+    @read = link[:read]
   end
 
   def self.all

@@ -1,7 +1,7 @@
 class LinksService
 
   def initialize
-    @conn = Faraday.new(url: 'https://afternoon-chamber-82002.herokuapp.com/')
+    @conn = Faraday.new(url: 'http://localhost:3001')
   end
 
   def get_links
